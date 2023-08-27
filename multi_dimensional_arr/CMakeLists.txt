@@ -1,0 +1,1 @@
+﻿add_executable(ExampleProject main.cpp headers/exceptions.h headers/multi_dimensional.h imp/exception.cpp imp/multi_dimensional.hpp)
