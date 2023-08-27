@@ -52,3 +52,16 @@ Example 2:
 	}
 
 ```
+
+Example 3:
+
+```cpp
+
+	MultiDimArray<char, size, size, size, size> mat;
+	std::array<std::array<std::array<char, size>, size>, size> arr = mat[0];
+	std::array<std::array<char, size>, size> sub_arr = mat[0][0];
+	std::array<char, size> sub_sub_arr = mat[0][0][0];
+	char val = mat[0][0][0][0];
+
+```
+
